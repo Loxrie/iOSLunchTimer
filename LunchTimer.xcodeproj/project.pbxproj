@@ -70,6 +70,7 @@
 		51495029167B598F00FA051F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		5149502C167B59DF00FA051F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		514F260318ABD18900529CDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		514F260518ABDA7300529CDA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +151,7 @@
 		5130D0E41679E3A8007DF7BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				514F260518ABDA7300529CDA /* README.md */,
 				514F260318ABD18900529CDA /* Images.xcassets */,
 				5130D0E51679E3A8007DF7BF /* LunchTimer-Info.plist */,
 				5130D0E61679E3A8007DF7BF /* InfoPlist.strings */,

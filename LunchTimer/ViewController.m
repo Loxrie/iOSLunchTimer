@@ -37,7 +37,7 @@
     
     self.locationManager = [[CLLocationManager alloc] init];
     self.locationManager.delegate = self;
-    self.locationManager.distanceFilter = kCLLocationAccuracyHundredMeters;
+    self.locationManager.distanceFilter = kCLLocationAccuracyBest;
     self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
     [self.locationManager startUpdatingLocation];
     
@@ -55,7 +55,7 @@
     self.startTime = [NSDate date];
     if ([CLLocationManager isMonitoringAvailableForClass:[CLCircularRegion class]]) {
         CLCircularRegion *lunchRegion = [[CLCircularRegion alloc] initWithCenter:self.mapView.centerCoordinate
-                                                                  radius:20
+                                                                  radius:LUNCH_RADIUS
                                                               identifier:@"AlarmRegion"];
         
         // Make annotation.

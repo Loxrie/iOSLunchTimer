@@ -27,7 +27,7 @@
 		5130D10F1679E3A8007DF7BF /* LunchTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5130D10E1679E3A8007DF7BF /* LunchTimerTests.m */; };
 		5149502A167B598F00FA051F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51495029167B598F00FA051F /* CoreLocation.framework */; };
 		5149502D167B59DF00FA051F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5149502C167B59DF00FA051F /* MapKit.framework */; };
-		514F260218ABAD6700529CDA /* ImageAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 514F260118ABAD6700529CDA /* ImageAssets.xcassets */; };
+		514F260418ABD18900529CDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 514F260318ABD18900529CDA /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,7 @@
 		5130D10E1679E3A8007DF7BF /* LunchTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LunchTimerTests.m; sourceTree = "<group>"; };
 		51495029167B598F00FA051F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		5149502C167B59DF00FA051F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		514F260118ABAD6700529CDA /* ImageAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = ImageAssets.xcassets; path = ../ImageAssets.xcassets; sourceTree = "<group>"; };
+		514F260318ABD18900529CDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,6 @@
 		5130D0CE1679E3A7007DF7BF = {
 			isa = PBXGroup;
 			children = (
-				5149502C167B59DF00FA051F /* MapKit.framework */,
-				51495029167B598F00FA051F /* CoreLocation.framework */,
 				5130D0E31679E3A8007DF7BF /* LunchTimer */,
 				5130D1071679E3A8007DF7BF /* LunchTimerTests */,
 				5130D0DC1679E3A8007DF7BF /* Frameworks */,
@@ -122,6 +120,8 @@
 		5130D0DC1679E3A8007DF7BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5149502C167B59DF00FA051F /* MapKit.framework */,
+				51495029167B598F00FA051F /* CoreLocation.framework */,
 				5130D0DD1679E3A8007DF7BF /* UIKit.framework */,
 				5130D0DF1679E3A8007DF7BF /* Foundation.framework */,
 				5130D0E11679E3A8007DF7BF /* CoreGraphics.framework */,
@@ -150,7 +150,7 @@
 		5130D0E41679E3A8007DF7BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				514F260118ABAD6700529CDA /* ImageAssets.xcassets */,
+				514F260318ABD18900529CDA /* Images.xcassets */,
 				5130D0E51679E3A8007DF7BF /* LunchTimer-Info.plist */,
 				5130D0E61679E3A8007DF7BF /* InfoPlist.strings */,
 				5130D0E91679E3A8007DF7BF /* main.m */,
@@ -255,9 +255,9 @@
 				5130D0E81679E3A8007DF7BF /* InfoPlist.strings in Resources */,
 				5130D0F01679E3A8007DF7BF /* Default.png in Resources */,
 				5130D0F21679E3A8007DF7BF /* Default@2x.png in Resources */,
+				514F260418ABD18900529CDA /* Images.xcassets in Resources */,
 				5130D0F41679E3A8007DF7BF /* Default-568h@2x.png in Resources */,
 				5130D0F71679E3A8007DF7BF /* MainStoryboard.storyboard in Resources */,
-				514F260218ABAD6700529CDA /* ImageAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

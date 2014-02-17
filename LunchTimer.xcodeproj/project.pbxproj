@@ -230,6 +230,11 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Paul Downs";
+				TargetAttributes = {
+					5130D0D81679E3A8007DF7BF = {
+						DevelopmentTeam = 99286P4V33;
+					};
+				};
 			};
 			buildConfigurationList = 5130D0D31679E3A7007DF7BF /* Build configuration list for PBXProject "LunchTimer" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -401,6 +406,9 @@
 		5130D1131679E3A8007DF7BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LunchTimer/LunchTimer-Prefix.pch";
 				INFOPLIST_FILE = "LunchTimer/LunchTimer-Info.plist";
@@ -413,6 +421,9 @@
 		5130D1141679E3A8007DF7BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LunchTimer/LunchTimer-Prefix.pch";
 				INFOPLIST_FILE = "LunchTimer/LunchTimer-Info.plist";
